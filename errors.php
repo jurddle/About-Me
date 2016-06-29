@@ -6,7 +6,7 @@ if(isset($_POST['submit'])){
 
 	//test email
 	$from = $name;
-	$to = 'joy.lam415@gmail.com';
+	$to = 'youremail@domain.com';
 	$subject = 'New Message';
 	$body = "From: $name\n Email: $email\n Message:\n $message";
 
