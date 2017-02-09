@@ -1,0 +1,44 @@
+.container-fluid{
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+body{
+	color: #3d5c5c;
+	font-family: Georgia;
+	background-image: linear-gradient(180deg, #d279a6, #39ac73, #ffffff);
+}
+
+h1{
+	text-align: center;
+	letter-spacing: 20px;
+	font-size: 400%;
+	padding: 30px;
+	color: #33334d;
+}
+
+h2{
+	color: #47476b;
+}
+
+p{
+	padding: 30px;
+	font-size: 20px;
+	color: #47476b;
+}
+
+#container{
+	width: 100%;
+}
+
+.col{
+	height: 50%;
+	width: 30%;
+	display: inline-block;
+	margin: 1%;
+	border-radius: 25px;
+}
+
+.col:hover, .fa:hover{
+	opacity:0.3;
+}

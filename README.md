@@ -1,2 +1,2 @@
 # Web
-About Me website with Bootstrap, HTML/CSS and PHP for contact form.
+Simple About Me template website using Bootstrap and HTML/CSS.
