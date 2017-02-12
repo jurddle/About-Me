@@ -23,11 +23,11 @@ h2{
 
 p{
 	padding: 30px;
-	font-size: 20px;
+	font-size: 15px;
 	color: #47476b;
 }
 
-#container{
+#projects{
 	width: 100%;
 }
 
@@ -39,6 +39,16 @@ p{
 	border-radius: 25px;
 }
 
-.col:hover, .fa:hover{
+.fa{
+	color: #3d5c5c; 
+	padding: 20px;
+}
+
+.col:hover{
 	opacity:0.3;
+}
+
+.fa:hover{
+	font-size: 4em;
+	transition: 0.5s ease-out;
 }

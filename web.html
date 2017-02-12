@@ -5,53 +5,58 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Link to css file -->
+	<link rel="stylesheet" type="text/css" href="web.css">
 
 	<!-- jQuery library -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
+	<!-- jQuery scroll nav script -->
+	<!--script src="jquery.scrollNav.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		var $section = $("h1");
+		$section.html($section.text().replace(/(\S)/g), "")
+	})	
+	</script -->
+	
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- Font Awesome icons -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<!-- Link to css file -->
-	<link rel="stylesheet" type="text/css" href="web.css">
 </head>
 
 <body>
 	<!-- about me -->
-	<div class="container-fluid about text-center">
-		<h1>Name</h1>
+	<div class="container-fluid text-center">
+		<h1 id="about">Name</h1>
 		<img src="kitten.jpg" alt="Kitten" class="img-circle" width="300" height="300">
 		<p>Verear singulis has ad. Nibh meis nec ne, no esse tacimates sit, nam quando malorum eu. Nam ad meis prompta blandit. Epicuri voluptua vel no. Usu ad tollit vidisse saperet. Elit persius argumentum his in. Mei case maiorum vituperatoribus ut. Vidit exerci aliquip per in. Legendos pericula convenire eu pri. Eu duo alii convenire.</p>
 	</div>
 
 	<!-- projects -->
-	<div class="container-fluid projects text-center">
-		<h1>Projects</h1>
-		<div id="container">
-			<div class="projects">
-				<a href="github_link"><div class="col"><h2>Project 1</h2>
-					<p>In vim ancillae fabellas torquatos. Eu usu amet augue option, his mandamus adolescens ei. No justo efficiendi disputando mel, mei ne iriure accommodare, eu electram appellantur mei. At vix zril ponderum tractatos, vel omnium graecis ei. Duo tota vivendum ei, eu quo ignota noluisse invidunt, cu ceteros indoctum torquatos mel. Eam nobis nusquam te.</p>
-				</div></a>
-			  <a href="github_link"><div class="col"><h2>Project 2</h2>
-			  	<p>In vim ancillae fabellas torquatos. Eu usu amet augue option, his mandamus adolescens ei. No justo efficiendi disputando mel, mei ne iriure accommodare, eu electram appellantur mei. At vix zril ponderum tractatos, vel omnium graecis ei. Duo tota vivendum ei, eu quo ignota noluisse invidunt, cu ceteros indoctum torquatos mel. Eam nobis nusquam te.</p>
-			  </div></a>
-			  <a href="github_link"><div class="col"><h2>Project 3</h2>
-			  	<p>In vim ancillae fabellas torquatos. Eu usu amet augue option, his mandamus adolescens ei. No justo efficiendi disputando mel, mei ne iriure accommodare, eu electram appellantur mei. At vix zril ponderum tractatos, vel omnium graecis ei. Duo tota vivendum ei, eu quo ignota noluisse invidunt, cu ceteros indoctum torquatos mel. Eam nobis nusquam te.</p>
-			  </div></a>
-			</div>
-		</div>		
-	</div>
+	<div class="container-fluid text-center">
+		<h1 id="projects">Projects</h1>
+		<a href="github_link"><div class="col"><h2>Project 1</h2>
+			<p>In vim ancillae fabellas torquatos. Eu usu amet augue option, his mandamus adolescens ei. No justo efficiendi disputando mel, mei ne iriure accommodare, eu electram appellantur mei. At vix zril ponderum tractatos, vel omnium graecis ei. Duo tota vivendum ei, eu quo ignota noluisse invidunt, cu ceteros indoctum torquatos mel. Eam nobis nusquam te.</p>
+		</div></a>
+	  <a href="github_link"><div class="col"><h2>Project 2</h2>
+	  	<p>In vim ancillae fabellas torquatos. Eu usu amet augue option, his mandamus adolescens ei. No justo efficiendi disputando mel, mei ne iriure accommodare, eu electram appellantur mei. At vix zril ponderum tractatos, vel omnium graecis ei. Duo tota vivendum ei, eu quo ignota noluisse invidunt, cu ceteros indoctum torquatos mel. Eam nobis nusquam te.</p>
+	  </div></a>
+	  <a href="github_link"><div class="col"><h2>Project 3</h2>
+	  	<p>In vim ancillae fabellas torquatos. Eu usu amet augue option, his mandamus adolescens ei. No justo efficiendi disputando mel, mei ne iriure accommodare, eu electram appellantur mei. At vix zril ponderum tractatos, vel omnium graecis ei. Duo tota vivendum ei, eu quo ignota noluisse invidunt, cu ceteros indoctum torquatos mel. Eam nobis nusquam te.</p>
+	 	</div></a>
+	</div>		
 
 	<!-- contact -->
-	<div class="container-fluid contact text-center">
-		<a href="facebook_link"><i class="fa fa-facebook-square" style="font-size:48px; color:#3d5c5c; padding:20px"></i></a>
-		<a href="linkedin_link"><i class="fa fa-linkedin-square" style="font-size:48px; color: #3d5c5c; padding:20px"></i></a>
-		<a href="github_link"><i class="fa fa-github" style="font-size:48px; color: #3d5c5c; padding:20px"></i></a>
-		<a href="twitter_link"><i class="fa fa-twitter" style="font-size:48px; color: #3d5c5c; padding:20px"></i></a>
-		<a href="mailto:email@mail.com"><i class="fa fa-envelope-o" style="font-size:48px; color: #3d5c5c; padding:20px"></i></a>
+	<div class="container-fluid text-center">
+		<div id="contact">
+			<a href="facebook_link"><i class="fa fa-facebook-square fa-3x"></i></a>
+			<a href="linkedin_link"><i class="fa fa-linkedin-square fa-3x"></i></a>
+			<a href="github_link"><i class="fa fa-github fa-3x"></i></a>
+			<a href="twitter_link"><i class="fa fa-twitter fa-3x"></i></a>
+			<a href="mailto:email@mail.com"><i class="fa fa-envelope-o fa-3x"></i></a>
+		</div>
 	</div>
 </body>
 </html>
